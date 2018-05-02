@@ -11,7 +11,6 @@ export class AppComponent {
 
   posts: Array<Post> = [];
 
-
   constructor() {
     this.posts.push(new Post('Mon premier Post', 'Donec rutrum congue leo eget malesuada.', 1, new Date()));
     this.posts.push(new Post('Mon deuxieme Post', 'Donec rutrum congue leo eget malesuada.', -1, new Date()));
